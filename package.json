@@ -1,0 +1,23 @@
+{
+  "name": "ayushrj_world_counter",
+  "version": "1.0.0",
+  "description": "GIAIC assingment",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {"world_counter" : "index.js"},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ayush",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.19"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
